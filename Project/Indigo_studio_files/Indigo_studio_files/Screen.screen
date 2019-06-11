@@ -1,0 +1,258 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="12.0.0.8"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                Id="c4581acc-ffed-4049-9a2a-fd8ac1fb7bda">
+    <Page.Content>
+        <Content Width="800" Height="600" Id="e55f75cf-bfca-4c66-af4a-172a6eee1fe9">
+            <Content.Layers>
+                <Layer Id="93497fcb-bfa3-45e1-acb5-0e505f8d9ba8" Name="root" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="f87cf7d8-d47e-46fe-8382-405adf560ebc" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="800,600" Id="ade712c1-6a4c-4b48-ace2-8247a924c66b" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="510a2e90-8d20-448e-95f6-49855de337eb" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="06/06/2019 17:48:39" Id="614c055f-7fc6-4cab-9509-bbc029e2492c">
+            <Scene.KeyFrames>
+                <KeyFrame Id="7fa74ced-6de9-4eb3-9227-e5aaedaab176">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="93497fcb-bfa3-45e1-acb5-0e505f8d9ba8">
+                            <Add.Item>
+                                <ContainerBox Id="269f1f4a-0e9f-439f-9a76-488388c0ba13" Panel.Bounds="0,0,800{5,2147483647},600{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="bd264231-a2b5-446c-8222-5761eb93ba5f">
+                                            <Container.Children>
+                                                <ContainerBox Id="7de37253-8341-4697-b51e-e64800924c9f" Panel.Bounds="-1,64,140{5,2147483647},535{5,2147483647}">
+                                                    <ContainerBox.Content>
+                                                        <Container ClipToContainer="True" Id="ad5b94f7-4e22-47ab-b95a-689887f07916">
+                                                            <Container.Children>
+                                                                <Tree Id="a3e5c0ee-99b2-4e84-b96f-646157a43356" Panel.Bounds="-1,-1,140{5,2147483647},535{5,2147483647}">
+                                                                    <Tree.Items>
+                                                                        <TreeItem Text="Tree1" Id="a8e764cb-fe98-4900-870d-d5f8247878a7">
+                                                                            <TreeItem.Icon>
+                                                                                <Icon Color="#FF666666" CatalogId="fa-android" Id="1c3deb06-84d7-46c4-a6db-0be49e25722c" />
+                                                                            </TreeItem.Icon>
+                                                                            <TreeItem.Children>
+                                                                                <TreeItem Text="Branch1.1" ShowIcon="False" Id="c932f834-1d8e-43f2-bae9-176aa8791e9b">
+                                                                                    <TreeItem.Icon>
+                                                                                        <Icon Color="#FF666666" CatalogId="fa-address-book-o" Id="db5c7178-f0cc-4bad-afd6-86af262bf763" />
+                                                                                    </TreeItem.Icon>
+                                                                                    <TreeItem.Children>
+                                                                                        <TreeItem Text="Leaf1.1.1" Id="ff70f51a-d819-4981-b5b1-74f1ea7e0766" />
+                                                                                        <TreeItem Text="Leaf1.1.2" Id="a50dab27-9345-4f9e-8641-6640fb472570" />
+                                                                                    </TreeItem.Children>
+                                                                                </TreeItem>
+                                                                                <TreeItem Text="Branch2" Id="0bf52769-53e3-4b43-ae90-a068bc5a15c8" />
+                                                                            </TreeItem.Children>
+                                                                        </TreeItem>
+                                                                        <TreeItem Text="Tree2" Id="446d33bb-0fb5-40a4-91f7-e713b53a4ffd">
+                                                                            <TreeItem.Icon>
+                                                                                <Icon Color="#FF666666" CatalogId="fa-adjust" Id="c43041a5-c0c4-4438-b4f9-760fc772c2f1" />
+                                                                            </TreeItem.Icon>
+                                                                            <TreeItem.Children>
+                                                                                <TreeItem Text="Branch2.1" Id="b73d854f-69e9-4e61-a1ee-06a1d832cc28">
+                                                                                    <TreeItem.Children>
+                                                                                        <TreeItem Text="Leaf2.1.1" Id="2559998b-efe1-4698-ba5a-27106af4b9f1" />
+                                                                                        <TreeItem Text="Leaf2.1.2" Id="6d5f2afe-6e1f-4c4e-8f7d-6f74e5db14bb" />
+                                                                                    </TreeItem.Children>
+                                                                                </TreeItem>
+                                                                                <TreeItem Text="Branch2.2" Id="87af2561-ecd7-45c2-a263-b7da22403ad8" />
+                                                                            </TreeItem.Children>
+                                                                        </TreeItem>
+                                                                    </Tree.Items>
+                                                                </Tree>
+                                                            </Container.Children>
+                                                        </Container>
+                                                    </ContainerBox.Content>
+                                                </ContainerBox>
+                                                <ContainerBox Id="a965f625-640f-411a-84f7-bf3bc24a7d97" Panel.Bounds="-1,-1,800{5,2147483647},65{5,2147483647}">
+                                                    <ContainerBox.Content>
+                                                        <Container ClipToContainer="True" Id="888f3f6a-9447-4884-84a3-5f80f3379517">
+                                                            <Container.Children>
+                                                                <TextBox Text="TITLE" FontSize="24" Id="605870fa-dcdb-4e8c-96d0-939d81a22aa3" Panel.Bounds="154,12,202{5,2147483647},5*{5,2147483647}" />
+                                                                <TextBox Text="Logged in user" FontSize="24" Id="19ab86e3-d0fe-4445-8d96-c9b2e84a97ef" Panel.Bounds="572,12,202{5,2147483647},5*{5,2147483647}" />
+                                                            </Container.Children>
+                                                        </Container>
+                                                    </ContainerBox.Content>
+                                                </ContainerBox>
+                                                <ContainerBox Id="479a7cf4-dd7a-4b83-b4e2-ad602e124298" Panel.Bounds="-1,-1,140{5,2147483647},65{5,2147483647}">
+                                                    <ContainerBox.Content>
+                                                        <Container ClipToContainer="True" Id="17438709-58f5-4109-bf33-874e52380cc3">
+                                                            <Container.Children>
+                                                                <Image SourcePath="assets/c175-dc82f620.jpg" Id="3bbe5220-0e1a-4160-b3f4-dfbe2634c952" Panel.Bounds="0,0,140{5,2147483647},65{5,2147483647}" />
+                                                            </Container.Children>
+                                                        </Container>
+                                                    </ContainerBox.Content>
+                                                </ContainerBox>
+                                                <ContainerBox Id="ea888091-501b-443e-be54-eb9451faa462" Panel.Bounds="139,64,230{5,2147483647},198{5,2147483647}">
+                                                    <ContainerBox.Content>
+                                                        <Container ClipToContainer="True" Id="bc339a0e-3892-4389-92b9-ba5c777ddd18">
+                                                            <Container.Children>
+                                                                <ComboBox Hint="Drop down of nos" Id="0a536bf0-605e-49b8-9247-961590aecda8" Panel.Bounds="39,62,150{5,2147483647},28{5,2147483647}">
+                                                                    <ComboBox.Items>
+                                                                        <Item Text="123" Id="74c10c65-67ef-4dc2-b17b-dccf039564ba" />
+                                                                        <Item Text="124" Id="d343a2d1-b4b7-4304-aba9-6ffcdf5ec0fd" />
+                                                                        <Item Text="125" Id="20761fb5-95bb-427d-ad56-db6660007f49" />
+                                                                    </ComboBox.Items>
+                                                                </ComboBox>
+                                                                <TextBox WatermarkText="Number" Id="a9d722e0-8234-44cd-9869-97491d591a04" Panel.Bounds="39,25,150{5,2147483647},5*{5,2147483647}" />
+                                                                <TextBox WatermarkText="Number" Id="192e7bcf-a1ad-4cdd-8f3d-a42e195c2402" Panel.Bounds="39,103,150{5,2147483647},5*{5,2147483647}" />
+                                                                <Button Text="Submit" Id="8cee4649-c37d-4763-bb2b-bfcd703fa0fb" Panel.Bounds="75,149,80{5,2147483647},28{5,2147483647}">
+                                                                    <Button.Click>
+                                                                        <CommandSwitchTo SceneId="bba65dec-0488-4028-a606-3de75288b537" AutoRevertEvent="Control.Click" Created="06/07/2019 05:03:01" Id="af7277a6-ec92-4cbf-9c5f-2f954a5a6769" />
+                                                                    </Button.Click>
+                                                                </Button>
+                                                            </Container.Children>
+                                                        </Container>
+                                                    </ContainerBox.Content>
+                                                </ContainerBox>
+                                                <Tabs Id="1e38e357-14f7-4999-852c-9e41a807b8bd" Panel.Bounds="139,262,660{5,2147483647},337{5,2147483647}">
+                                                    <Tabs.Items>
+                                                        <TabItem Header="User Ordered Products" IsSelected="True" Id="788df03f-af3d-4e7b-b932-334a09dd26e6">
+                                                            <TabItem.Content>
+                                                                <Container ClipToContainer="True" Id="0a672285-a9d3-4f9e-a68a-1da9828a48cb">
+                                                                    <Container.Children>
+                                                                        <Image Id="c4214cf7-b207-432d-9d35-ca148654924f" Panel.Bounds="36,80,5*{5,2147483647},5*{5,2147483647}" />
+                                                                        <Image Id="536c90b0-0618-4dfa-9886-3b43e0520de7" Panel.Bounds="267,80,5*{5,2147483647},5*{5,2147483647}" />
+                                                                        <Image Id="90dd7d9c-462e-4ae5-a848-d39a8372d713" Panel.Bounds="151,80,5*{5,2147483647},5*{5,2147483647}" />
+                                                                    </Container.Children>
+                                                                </Container>
+                                                            </TabItem.Content>
+                                                        </TabItem>
+                                                        <TabItem Header="Order Products" Id="ae917215-c805-4ca3-8df3-b7bf73b31965">
+                                                            <TabItem.Content>
+                                                                <Container ClipToContainer="True" Id="63064d25-b33c-4e4d-8c4d-ab25fc7b2ce7">
+                                                                    <Container.Children>
+                                                                        <Tabs Id="7a8017c8-6f32-4a84-a996-d6ada9decd00" Panel.Bounds="-1,0,659{5,2147483647},306{5,2147483647}">
+                                                                            <Tabs.Items>
+                                                                                <TabItem Header="Select Product" IsSelected="True" Id="5b9efa09-f708-4006-83c1-efb347af58e5">
+                                                                                    <TabItem.Content>
+                                                                                        <Container ClipToContainer="True" Id="dd8616bd-9da8-444e-80d9-3fde48858792">
+                                                                                            <Container.Children>
+                                                                                                <ContainerBox Id="0715bcc4-0336-4d24-829f-694a669a4d1d" Panel.Bounds="200,44,130{5,2147483647},162{5,2147483647}">
+                                                                                                    <ContainerBox.Content>
+                                                                                                        <Container ClipToContainer="True" Id="9a036db4-5e23-4d75-a83e-76a88cf759ba">
+                                                                                                            <Container.Children>
+                                                                                                                <Image Id="b8a5bea9-fe2d-4ca3-b210-d7b8cb81db27" Panel.Bounds="19,35,5*{5,2147483647},5*{5,2147483647}" />
+                                                                                                                <CheckBox Id="cc49d1f5-b733-42a7-b589-11a3d2b3971b" Panel.Bounds="103,-1,5*{5,2147483647},5*{5,2147483647}" />
+                                                                                                                <Label RichText="Name and price" Align="Center" Id="0df9be23-efb4-4b62-bb84-8f65d727ad66" Panel.Bounds="-1,129,127{5,2147483647},28{5,2147483647}" />
+                                                                                                            </Container.Children>
+                                                                                                        </Container>
+                                                                                                    </ContainerBox.Content>
+                                                                                                </ContainerBox>
+                                                                                                <ContainerBox Id="9feddeab-43c0-4442-b305-06f00154d49d" Panel.Bounds="374,44,130{5,2147483647},162{5,2147483647}">
+                                                                                                    <ContainerBox.Content>
+                                                                                                        <Container ClipToContainer="True" Id="57d8f29a-f23a-488b-8245-c34cd7baff47">
+                                                                                                            <Container.Children>
+                                                                                                                <Image Id="9388940a-11b8-434a-91e4-2e70a29da08a" Panel.Bounds="19,35,5*{5,2147483647},5*{5,2147483647}" />
+                                                                                                                <CheckBox Id="d257e098-6c79-48e0-8015-5c8527aecbcf" Panel.Bounds="103,-1,5*{5,2147483647},5*{5,2147483647}" />
+                                                                                                                <Label RichText="Name and price" Align="Center" Id="6f9193bd-d904-4419-8b88-ca26c24c1940" Panel.Bounds="-1,129,127{5,2147483647},28{5,2147483647}" />
+                                                                                                            </Container.Children>
+                                                                                                        </Container>
+                                                                                                    </ContainerBox.Content>
+                                                                                                </ContainerBox>
+                                                                                                <ContainerBox Id="d84e6d92-d0ef-47aa-9e9b-04bb2feef0f0" Panel.Bounds="33,44,130{5,2147483647},162{5,2147483647}">
+                                                                                                    <ContainerBox.Content>
+                                                                                                        <Container ClipToContainer="True" Id="946f2b52-402a-4ded-89ca-6abb09cb1a6b">
+                                                                                                            <Container.Children>
+                                                                                                                <Image Id="00f47c07-7004-4343-9ead-5b22ccb8b6da" Panel.Bounds="19,35,5*{5,2147483647},5*{5,2147483647}" />
+                                                                                                                <CheckBox Id="86ddda6e-050c-4fe8-b73f-3b7d7fd7bb61" Panel.Bounds="103,-1,5*{5,2147483647},5*{5,2147483647}" />
+                                                                                                                <Label RichText="Name and price" Align="Center" Id="1c18b38a-67e3-410b-8a5c-55d4d5d4b486" Panel.Bounds="-1,129,127{5,2147483647},28{5,2147483647}" />
+                                                                                                            </Container.Children>
+                                                                                                        </Container>
+                                                                                                    </ContainerBox.Content>
+                                                                                                </ContainerBox>
+                                                                                                <Button Text="Cancel" FontFamily="Open Sans" Id="d6c492ea-46df-4463-b8bd-42d1ed59d32a" Panel.Bounds="432,228,80{5,2147483647},35{5,2147483647}" />
+                                                                                                <Button Text="Continue" FontFamily="Open Sans" Id="44e6415d-9793-4545-ae71-2cea5d087aaf" Panel.Bounds="528,228,80{5,2147483647},35{5,2147483647}" />
+                                                                                                <TextArea Text="Selected 0" FontSize="14" FontFamily="Open Sans" Id="4a37d40a-1655-4fe1-8b87-263f9b9ae714" Panel.Bounds="304,233,96{5,2147483647},30{5,2147483647}" />
+                                                                                            </Container.Children>
+                                                                                        </Container>
+                                                                                    </TabItem.Content>
+                                                                                </TabItem>
+                                                                                <TabItem Header="Step 2" Id="f2ca172e-8c62-4db9-b480-24b8a4ae81dd">
+                                                                                    <TabItem.Content>
+                                                                                        <Container ClipToContainer="True" Id="23efba23-5047-47b7-aef2-234f962a27b5">
+                                                                                            <Container.Children>
+                                                                                                <Button Text="Back" FontFamily="Open Sans" Id="ba79d99c-0df7-4628-9d7e-fde41627fd16" Panel.Bounds="432,228,80{5,2147483647},35{5,2147483647}" />
+                                                                                                <Button Text="Continue" FontFamily="Open Sans" Id="431c2ea8-4d35-4526-9202-2f8a3dd58efe" Panel.Bounds="528,228,80{5,2147483647},35{5,2147483647}" />
+                                                                                                <Button Text="Cancel" FontFamily="Open Sans" Id="3032f96d-bccc-4c17-aa76-e79579ebf5ae" Panel.Bounds="340,228,80{5,2147483647},35{5,2147483647}" />
+                                                                                            </Container.Children>
+                                                                                        </Container>
+                                                                                    </TabItem.Content>
+                                                                                </TabItem>
+                                                                                <TabItem Header="Step 3" Id="71083b7b-4fbf-476e-a7b6-2f163cc1e660">
+                                                                                    <TabItem.Content>
+                                                                                        <Container ClipToContainer="True" Id="ce6b5620-0773-488d-9c8d-f87afbf8983e">
+                                                                                            <Container.Children>
+                                                                                                <Button Text="Back" FontFamily="Open Sans" Id="8910aca1-37d8-48e0-87ca-e67fbd2f6d22" Panel.Bounds="432,228,80{5,2147483647},35{5,2147483647}" />
+                                                                                                <Button Text="Continue" FontFamily="Open Sans" Id="c97923b2-eae8-4345-beca-364bd00e26f8" Panel.Bounds="528,228,80{5,2147483647},35{5,2147483647}" />
+                                                                                                <Button Text="Cancel" FontFamily="Open Sans" Id="65a68cf6-50bf-45fc-b497-381e4edc8678" Panel.Bounds="340,228,80{5,2147483647},35{5,2147483647}" />
+                                                                                            </Container.Children>
+                                                                                        </Container>
+                                                                                    </TabItem.Content>
+                                                                                </TabItem>
+                                                                                <TabItem Header="Final" Id="2ecae1e1-96da-4840-b9af-f9aa3d2461c8">
+                                                                                    <TabItem.Content>
+                                                                                        <Container ClipToContainer="True" Id="cb654210-ba92-45ba-b5a5-cb9c31bb5867">
+                                                                                            <Container.Children>
+                                                                                                <Button Text="Back" FontFamily="Open Sans" Id="4d8e284e-eeb6-4621-a2c9-8152ccdd5676" Panel.Bounds="432,228,80{5,2147483647},35{5,2147483647}" />
+                                                                                                <Button Text="Confirm" FontFamily="Open Sans" Id="8d9c22d4-5ee8-40f8-b5b4-1caa86c3ac53" Panel.Bounds="528,228,80{5,2147483647},35{5,2147483647}" />
+                                                                                                <Button Text="Cancel" FontFamily="Open Sans" Id="bb9f2030-3ce6-466b-a35f-2f2cbe42dd71" Panel.Bounds="340,228,80{5,2147483647},35{5,2147483647}" />
+                                                                                            </Container.Children>
+                                                                                        </Container>
+                                                                                    </TabItem.Content>
+                                                                                </TabItem>
+                                                                            </Tabs.Items>
+                                                                        </Tabs>
+                                                                    </Container.Children>
+                                                                </Container>
+                                                            </TabItem.Content>
+                                                        </TabItem>
+                                                    </Tabs.Items>
+                                                </Tabs>
+                                                <ContainerBox Id="8faf1d68-d5ac-4fe0-925f-8f8339b4c287" Panel.Bounds="369,64,180{5,2147483647},198{5,2147483647}">
+                                                    <ContainerBox.Content>
+                                                        <Container ClipToContainer="True" Id="a161aaa8-0c0e-4f79-8fe5-dd22324a83cf">
+                                                            <Container.Children>
+                                                                <Image Id="a71b6859-9d96-48c6-a90f-b4f3ba702fe9" Panel.Bounds="-1,48,179{5,2147483647},82{5,2147483647}" />
+                                                            </Container.Children>
+                                                        </Container>
+                                                    </ContainerBox.Content>
+                                                </ContainerBox>
+                                                <ContainerBox Id="3f9e15f0-e5d0-4a41-a54a-ab7a7703ce83" Panel.Bounds="548,64,250{5,2147483647},198{5,2147483647}">
+                                                    <ContainerBox.Content>
+                                                        <Container ClipToContainer="True" Id="dc7af874-8cc0-4630-8c99-e3a4a85d502d">
+                                                            <Container.Children>
+                                                                <TextBox Text="Widget" FontFamily="Open Sans" Id="f96a129f-ac2f-48d6-adc1-727a7c01247f" Panel.Bounds="64,74,120{5,2147483647},5*{5,2147483647}" />
+                                                            </Container.Children>
+                                                        </Container>
+                                                    </ContainerBox.Content>
+                                                </ContainerBox>
+                                            </Container.Children>
+                                        </Container>
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped/Clicked Submit" StateGroup="614c055f-7fc6-4cab-9509-bbc029e2492c" ParentScene="614c055f-7fc6-4cab-9509-bbc029e2492c" Created="06/07/2019 05:03:01" Id="bba65dec-0488-4028-a606-3de75288b537">
+            <Scene.KeyFrames>
+                <KeyFrame Id="903e363b-a2ef-41de-b336-56a12c3ce91c">
+                    <KeyFrame.Operations>
+                        <Set Property="Button.Text" Value="Reset" Target="8cee4649-c37d-4763-bb2b-bfcd703fa0fb" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

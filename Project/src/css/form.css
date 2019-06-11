@@ -1,0 +1,25 @@
+#number
+{
+  /* width: 75%; */
+  margin-bottom: 10px;
+  /* text-align: center; */
+}
+#secondnumber
+{
+  /* width: 75%; */
+  margin-bottom: 10px;
+  /* text-align: center; */
+}
+#select
+{
+  /* width: 75%; */
+  /* text-align: center; */
+  margin-bottom: 10px;
+}
+#button
+{
+  /* width:75%; */
+  text-align: center;
+  border-color: grey;
+  border-width: thin;
+}
